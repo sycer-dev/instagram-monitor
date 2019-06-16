@@ -8,5 +8,5 @@ This monitor allows you to monitor a plethor of instagram accounts for new posts
 ## Launching
 * install packages via `npm install`
 * run `npm run build` to compile from TypeScript to JavaScript
-* run `npm start` or run indefinintely uwing `pm2`
+* run `npm start` or run indefinintely using `pm2`
 
