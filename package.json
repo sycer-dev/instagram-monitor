@@ -1,0 +1,61 @@
+{
+	"name": "instagram-monitor",
+	"version": "1.0.0",
+	"description": "an instagram monitor",
+	"main": "dist/index.js",
+	"typings": "typings/",
+	"author": "Sycer Development <sycerdev@gmail.com>",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/sycer-dev/instagram-monitor"
+	},
+	"bugs": {
+		"url": "https://github.com/sycer-dev/instagram-monitor/issues"
+	},
+	"homepage": "https://github.com/sycer-dev/instagram-monitor#readme",
+	"engines": {
+		"node": ">=10"
+	},
+	"keywords": [
+		"instagram monitor",
+		"instagram discord",
+		"instagram cook",
+		"cook groups",
+		"supreme",
+		"yeezy",
+		"adidas",
+		"kith",
+		"raffles"
+	],
+	"license": "Apache 2.0",
+	"scripts": {
+		"start": "node .",
+		"build": "npx gulp",
+		"test": "npm run lint",
+		"lint": "eslint src --ext .ts --ext .json"
+	},
+	"dependencies": {
+		"@types/ws": "^6.0.1",
+		"axios": "^0.19.0",
+		"discord.js": "github:discordjs/discord.js",
+		"moment": "^2.24.0"
+	},
+	"devDependencies": {
+		"@types/dotenv": "^6.1.1",
+		"@types/node": "^12.0.8",
+		"@typescript-eslint/eslint-plugin": "^1.9.0",
+		"@typescript-eslint/parser": "^1.8.0",
+		"eslint": "^5.16.0",
+		"eslint-config-marine": "^3.0.2",
+		"fs-nextra": "^0.4.5",
+		"gulp": "^4.0.2",
+		"gulp-sourcemaps": "^2.6.5",
+		"gulp-typescript": "^5.0.1",
+		"merge2": "^1.2.3",
+		"nodemon": "^1.19.0",
+		"typescript": "^3.4.5"
+	},
+	"eslintConfig": {
+		"extends": "marine/node"
+	}
+}

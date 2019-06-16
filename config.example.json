@@ -1,0 +1,16 @@
+{
+	"delay": 3000,
+	"color": "GOLD",
+	"webhook": {
+		"link": ""
+	},
+	"accounts": [
+		"sycerdev",
+		"time",
+		"wwd",
+		"wired",
+		"WJS",
+		"slate"
+
+	]
+}
