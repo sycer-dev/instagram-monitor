@@ -10,3 +10,11 @@ This monitor allows you to monitor a plethor of instagram accounts for new posts
 * run `npm run build` to compile from TypeScript to JavaScript
 * run `npm start` or run indefinintely using `pm2`
 
+## Contributing
+1. [Fork](https://github.com/sycer-dev/instagram-monitor/fork)!
+2. Clone! - `git clone https://github.com/hydrabolt/instagram-monitor`
+3. Make new branch! - `git checkout -b name-me`
+4. Commit! - `git commit -am 'I did something!'`
+5. Push it! - `git push origin name-me`
+6. [Pull it](https://github.com/sycer-dev/instagram-monitor/compare)!
+7. Shake it!
